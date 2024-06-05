@@ -13,6 +13,12 @@ public class Ergasia {
 		aEpopteuei=pEpopteuei;
 	}
 
+	public Ergasia(String pName, int pSemester) {
+		aName = pName;
+		aSemester=pSemester;
+
+	}
+
 	public String getName() {
 		return this.aName;
 	}
